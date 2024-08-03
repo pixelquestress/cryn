@@ -15,6 +15,11 @@ Cryn - The Dark Reflection: an RPG role playing game.
 
 ![screenshot](screenshots/cap6.jpg)
 
+## Requirements
+
+- Windows PC
+- DirectX 7+
+
 ## Story
 
 Life is but a short time, and existence is always temporary.
