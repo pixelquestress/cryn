@@ -36,6 +36,10 @@ static char rcsid[] = "@(#) $Id: cdxmapcell.cpp,v 1.1.1.1 2000/04/22 16:10:39 he
 CDXMapCell::CDXMapCell()
 {
 	TileNum = 0;
+	Walkable = true;
+	Animated = false;
+	TileStart = 0;
+	TileEnd = 0;
 }
 
 //////////////////////////////////////////////////////////////////////////////////
