@@ -221,7 +221,7 @@ BOOL cdx_Init()
 		CDXError(NULL, (char*)"Could not create CDXScreen object");
 
 	// start app fullscreen
-	if (Screen->CheckIfVideoModeExists(640, 480, 16) == TRUE)
+	/*if (Screen->CheckIfVideoModeExists(640, 480, 16) == TRUE)
 	{
 		//Screen->CreateFullScreen(g_hWnd, 640, 480, 16);
 		Screen->CreateWindowed(g_hWnd, 640, 480);
@@ -230,7 +230,9 @@ BOOL cdx_Init()
 	{
 		Screen->CreateFullScreen(g_hWnd, 640, 480, 32);
 		//Screen->CreateWindowed(g_hWnd, 640, 480);
-	}
+	}*/
+
+	Screen->CreateFullScreen(g_hWnd, 640, 480, 32);
 
 	/*	Screen->GetBack()->ChangeFont("Verdana", 8, 15, 400);
 		Screen->GetBack()->SetFont();
