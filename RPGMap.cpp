@@ -6137,14 +6137,15 @@ void CleanupMemory()
 		if (Tile->Create(Screen, (char*)"tiles/mistspot.bmp", 40, 40, 0) == FALSE)
 			CDXError( Screen , (char*)"could not load tiles from file mistspot.bmp" );
 
-		for (int i=0; i<MAX_MIST_SPOTS; i++)
+		for (int i = 0; i<MAX_MIST_SPOTS; i++)
 		{
 			Screen->GetFront()->FillRect(190, 380, 190+(x++), 385, RGB565(color++, 0, 0));
-
-			MistSpots[i].LoadedTile = Tile;
-			MistSpots[i].Load(Screen, Input, Sound, NetherMap, NetherMapTop, MOVE_NONE, (char*)"tiles/mistspot.bmp", 40, 40);
-			MistSpots[i].SetCharacterMap(&EmptyNPCCharacterMapStruct);
-			MistSpots[i].Init();
+			MistSpots[i].Map = NetherMap;
+			MistSpots[i].Map2 = NetherMapTop;
+			//MistSpots[i].LoadedTile = Tile;
+			//MistSpots[i].Load(Screen, Input, Sound, NetherMap, NetherMapTop, MOVE_NONE, (char*)"tiles/mistspot.bmp", 40, 40);
+			//MistSpots[i].SetCharacterMap(&EmptyNPCCharacterMapStruct);
+			//MistSpots[i].Init();
 		}
 
 		Screen->GetFront()->FillRect(190, 380, 190+(x++), 385, RGB565(color+=2, 0, 0));
