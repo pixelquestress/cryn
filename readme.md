@@ -99,7 +99,7 @@ Weapon Power, Armor, and Spell increase. Spells begin evolving after level 10.
 - Fluxal Melt   : ???
 - many More ...
 
-## Building the Project for Developers
+## Building the Project (Developers)
 
 This game was created using [CDX](https://sourceforge.net/projects/cdx/), a gaming library that is no longer maintained, but is included in this project. You may also need to dowload and install the [Microsoft Platform SDK](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/) if it is not pre-installed with your copy of **Visual Studio 2022**.
 
@@ -107,6 +107,10 @@ This game was created using [CDX](https://sourceforge.net/projects/cdx/), a gami
 
 1. Download Visual Studio Community 2022 https://visualstudio.microsoft.com/vs/community/
 2. Download DirectX 7 SDK and install folder in C:\ https://archive.org/details/dx7sdk-7001
+3. Clone the project and open the `.sln` file in Visual Studio 2022 Community Edition.
+4. Build and run.
+
+The project should build as-is. If any issues arise, the following manual steps can be used to setup the required libraries.
 
 ### Configure Project Directories
 
