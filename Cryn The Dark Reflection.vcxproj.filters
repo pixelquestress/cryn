@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CDX">
+      <UniqueIdentifier>{4bfc08e7-fd08-43fa-a71b-0171808d04ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CDX">
+      <UniqueIdentifier>{e3e96ac1-f5f1-48fa-9e0b-d556b92777bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cdx\include\cdx.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdx3d.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdx3dcamera.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdx3dengine.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdx3dframe.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdx3dlight.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdx3dscene.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdx3dshape.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxclist.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxdebug.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxfile.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdximage.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdximagebase.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdximagebmp.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdximagejpg.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdximagepcx.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdximagepsd.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdximagetga.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxinput.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxlayer.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxlog.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxmap.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxmidi.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxmusic.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxpacker.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxresource.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxscreen.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxsound.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxsprite.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxstructs.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxsurface.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxtemplate.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxtile.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="cdx\include\cdxtypes.h">
+      <Filter>Header Files\CDX</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackRainDrop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Branch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cdxmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeTile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingLeaf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FireDrop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gnat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MistSpot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RainDrop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowFlake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RPGMap.aps">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RPGMap.dsp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RPGMap.dsw">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RPGMap.ncb">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RPGMap.opt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="RPGMap.plg">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="vc140.pdb">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="readme.md">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RPGMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowFlake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackRainDrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Branch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeTile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FallingLeaf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FireDrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gnat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MistSpot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RainDrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\ddutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\dxerrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxdebug.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxfile.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdximage.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdximagebase.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdximagebmp.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdximagejpg.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdximagepcx.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdximagepsd.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdximagetga.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxinput.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxiso.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxlayer.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxlog.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxmap.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxmapcell.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxmidi.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxmusic.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxmusiccd.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxpacker.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxresource.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxscreen.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxsound.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxsoundbuffer.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxsprite.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxspritelist.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxsurface.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxtemplate.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="cdx\src\cdxtile.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+    <ClCompile Include="Cdxmenu.cpp">
+      <Filter>Source Files\CDX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RPGMap.ico">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RPGMap.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="help.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

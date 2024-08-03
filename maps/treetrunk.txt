@@ -1,0 +1,22 @@
+[MAP NON-WALKABLE]
+f
+[NEXT SYMBOL]
+m
+[NEXT SYMBOL]
+l
+[MAP]
+mmmmmmmmmmmmlblmmmmmmmmmmmmmmm
+mmmmmmmmmmmlsbdlmmmmmmmmmmmmmm
+mmlmmmmmmmlbtbbblmmmmmmmmlmmmm
+mlblmmmmmmbbbbsbbmmmmmmmlblmmm
+mrrrllllllsbdbtbbllllllldbbmmm
+mjjjbbbbbbtbbbtbdbbbdbbbbbbbmm
+mqqqmmmmmmtbbbtbbmmmmmmmbbdmmm
+mmbmmmmmmmtdbbbbbmmmmmmmmbmmmm
+mmmmmmmmmmmbbbbbmmmmmmmmmmmmmm
+mmmmmmmmmmmbbsbnmmmmmmmmmmmmmm
+mmmmmmmmmmmmbtbmmmmmmmmmmmmmmm
+mmmmmmmmmmmmbtdmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmbmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmbmmmmmmmmmmmmmmmm
+mmmmmmmmmmmmmammmmmmmmmmmmmmmm

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{62d6eb46-711a-476a-be5b-032656883ada}</ProjectGuid>
+    <RootNamespace>CrynTheDarkReflection</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\dx7sdk-700.1\include;C:\CDX\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\dx7sdk-700.1\lib;C:\CDX\lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>C:\CDX\src;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\dx7sdk-700.1\include;cdx\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\dx7sdk-700.1\lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+    <ExternalIncludePath>$(ExternalIncludePath)</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\dx7sdk-700.1\include;cdx\include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>C:\dx7sdk-700.1\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>bass;c:\dx7sdk-700.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <LanguageStandard>Default</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>bass;c:\dx7sdk-700.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AddModuleNamesToAssembly>%(AddModuleNamesToAssembly)</AddModuleNamesToAssembly>
+      <AdditionalDependencies>ddraw.lib;dsound.lib;dxguid.lib;dinput.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;bass.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>bass;c:\dx7sdk-700.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>bass;c:\dx7sdk-700.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ddraw.lib;dsound.lib;dxguid.lib;dinput.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;bass.lib;legacy_stdio_definitions.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib</IgnoreSpecificDefaultLibraries>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>bass;c:\dx7sdk-700.1\include;c:\cdx\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>bass\x64;c:\dx7sdk-700.1\lib;c:\CDX\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AddModuleNamesToAssembly>bass\x64\bass.lib;C:\CDX\lib\cdx.lib;%(AddModuleNamesToAssembly)</AddModuleNamesToAssembly>
+      <AdditionalDependencies>bass\x64\bass.lib;cdx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBC.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Bat.h" />
+    <ClInclude Include="BattleEngine.h" />
+    <ClInclude Include="BlackRainDrop.h" />
+    <ClInclude Include="Branch.h" />
+    <ClInclude Include="Cdxmenu.h" />
+    <ClInclude Include="cdx\include\cdx.h" />
+    <ClInclude Include="cdx\include\cdx3d.h" />
+    <ClInclude Include="cdx\include\cdx3dcamera.h" />
+    <ClInclude Include="cdx\include\cdx3dengine.h" />
+    <ClInclude Include="cdx\include\cdx3dframe.h" />
+    <ClInclude Include="cdx\include\cdx3dlight.h" />
+    <ClInclude Include="cdx\include\cdx3dscene.h" />
+    <ClInclude Include="cdx\include\cdx3dshape.h" />
+    <ClInclude Include="cdx\include\cdxclist.h" />
+    <ClInclude Include="cdx\include\cdxdebug.h" />
+    <ClInclude Include="cdx\include\cdxfile.h" />
+    <ClInclude Include="cdx\include\cdximage.h" />
+    <ClInclude Include="cdx\include\cdximagebase.h" />
+    <ClInclude Include="cdx\include\cdximagebmp.h" />
+    <ClInclude Include="cdx\include\cdximagejpg.h" />
+    <ClInclude Include="cdx\include\cdximagepcx.h" />
+    <ClInclude Include="cdx\include\cdximagepsd.h" />
+    <ClInclude Include="cdx\include\cdximagetga.h" />
+    <ClInclude Include="cdx\include\cdxinput.h" />
+    <ClInclude Include="cdx\include\cdxlayer.h" />
+    <ClInclude Include="cdx\include\cdxlog.h" />
+    <ClInclude Include="cdx\include\cdxmap.h" />
+    <ClInclude Include="cdx\include\cdxmidi.h" />
+    <ClInclude Include="cdx\include\cdxmusic.h" />
+    <ClInclude Include="cdx\include\cdxpacker.h" />
+    <ClInclude Include="cdx\include\cdxresource.h" />
+    <ClInclude Include="cdx\include\cdxscreen.h" />
+    <ClInclude Include="cdx\include\cdxsound.h" />
+    <ClInclude Include="cdx\include\cdxsprite.h" />
+    <ClInclude Include="cdx\include\cdxstructs.h" />
+    <ClInclude Include="cdx\include\cdxsurface.h" />
+    <ClInclude Include="cdx\include\cdxtemplate.h" />
+    <ClInclude Include="cdx\include\cdxtile.h" />
+    <ClInclude Include="cdx\include\cdxtypes.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Cloud.h" />
+    <ClInclude Include="FadeTile.h" />
+    <ClInclude Include="FallingLeaf.h" />
+    <ClInclude Include="FireDrop.h" />
+    <ClInclude Include="Gnat.h" />
+    <ClInclude Include="InfoBox.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Message.h" />
+    <ClInclude Include="MistSpot.h" />
+    <ClInclude Include="NPC.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="RainDrop.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SnowFlake.h" />
+    <ClInclude Include="WaitTimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RPGMap.aps" />
+    <None Include="RPGMap.dsp" />
+    <None Include="RPGMap.dsw" />
+    <None Include="RPGMap.ncb" />
+    <None Include="RPGMap.opt" />
+    <None Include="RPGMap.plg" />
+    <None Include="vc140.pdb" />
+    <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bat.cpp" />
+    <ClCompile Include="BattleEngine.cpp" />
+    <ClCompile Include="BlackRainDrop.cpp" />
+    <ClCompile Include="Branch.cpp" />
+    <ClCompile Include="Cdxmenu.cpp" />
+    <ClCompile Include="cdx\src\cdxdebug.cpp" />
+    <ClCompile Include="cdx\src\cdxfile.cpp" />
+    <ClCompile Include="cdx\src\cdximage.cpp" />
+    <ClCompile Include="cdx\src\cdximagebase.cpp" />
+    <ClCompile Include="cdx\src\cdximagebmp.cpp" />
+    <ClCompile Include="cdx\src\cdximagejpg.cpp" />
+    <ClCompile Include="cdx\src\cdximagepcx.cpp" />
+    <ClCompile Include="cdx\src\cdximagepsd.cpp" />
+    <ClCompile Include="cdx\src\cdximagetga.cpp" />
+    <ClCompile Include="cdx\src\cdxinput.cpp" />
+    <ClCompile Include="cdx\src\cdxiso.cpp" />
+    <ClCompile Include="cdx\src\cdxlayer.cpp" />
+    <ClCompile Include="cdx\src\cdxlog.cpp" />
+    <ClCompile Include="cdx\src\cdxmap.cpp" />
+    <ClCompile Include="cdx\src\cdxmapcell.cpp" />
+    <ClCompile Include="cdx\src\cdxmidi.cpp" />
+    <ClCompile Include="cdx\src\cdxmusic.cpp" />
+    <ClCompile Include="cdx\src\cdxmusiccd.cpp" />
+    <ClCompile Include="cdx\src\cdxpacker.cpp" />
+    <ClCompile Include="cdx\src\cdxresource.cpp" />
+    <ClCompile Include="cdx\src\cdxscreen.cpp" />
+    <ClCompile Include="cdx\src\cdxsound.cpp" />
+    <ClCompile Include="cdx\src\cdxsoundbuffer.cpp" />
+    <ClCompile Include="cdx\src\cdxsprite.cpp" />
+    <ClCompile Include="cdx\src\cdxspritelist.cpp" />
+    <ClCompile Include="cdx\src\cdxsurface.cpp" />
+    <ClCompile Include="cdx\src\cdxtemplate.cpp" />
+    <ClCompile Include="cdx\src\cdxtile.cpp" />
+    <ClCompile Include="cdx\src\ddutils.cpp" />
+    <ClCompile Include="cdx\src\dxerrors.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Cloud.cpp" />
+    <ClCompile Include="FadeTile.cpp" />
+    <ClCompile Include="FallingLeaf.cpp" />
+    <ClCompile Include="FireDrop.cpp" />
+    <ClCompile Include="Gnat.cpp" />
+    <ClCompile Include="InfoBox.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="MistSpot.cpp" />
+    <ClCompile Include="NPC.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="RainDrop.cpp" />
+    <ClCompile Include="RPGMap.cpp" />
+    <ClCompile Include="SnowFlake.cpp" />
+    <ClCompile Include="WaitTimer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RPGMap.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RPGMap.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="help.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
