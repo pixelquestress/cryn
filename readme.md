@@ -7,10 +7,6 @@ Cryn - The Dark Reflection: an RPG role playing game.
 
 ![screenshot](screenshots/video.gif)
 
-![screenshot](screenshots/cap2.jpg)
-
-![screenshot](screenshots/cap3.jpg)
-
 ![screenshot](screenshots/cap1.jpg)
 
 ![screenshot](screenshots/cap4.jpg)
