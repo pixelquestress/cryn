@@ -3,6 +3,20 @@ Cryn the Dark Reflection
 
 Cryn - The Dark Reflection: an RPG role playing game.
 
+## Screenshots
+
+![screenshot](screenshots/cap2.jpg)
+
+![screenshot](screenshots/cap3.jpg)
+
+![screenshot](screenshots/cap1.jpg)
+
+![screenshot](screenshots/cap4.jpg)
+
+![screenshot](screenshots/cap5.jpg)
+
+![screenshot](screenshots/cap6.jpg)
+
 ## Story
 
 Life is but a short time, and existence is always temporary.
