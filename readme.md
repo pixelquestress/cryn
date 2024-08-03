@@ -48,8 +48,7 @@ Cryn - The Dark Reflection is an RPG role playing game.
 - Some NPC characters can be controlled by user during battle.
 - Switch between multiple view points in game and control different character missions. 
 - Game may be saved at any time to restore from last save point.
-- Over 40 minutes of FREE demo game play.
-- Over 100 minutes of full version game play.  
+- Over 100 minutes of game play.  
 
 Since this is an RPG game, you should not expect to play it once and
 beat the game the first time around. You should SAVE your game very often!
