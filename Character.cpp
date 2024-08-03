@@ -180,7 +180,7 @@ bool CCharacter::Load(CDXScreen *screen, CDXInput *input, CDXSound *sound, CDXMa
 	Sound = sound;
 	bLoaded = true;
 
-	SAFEDELETE(Tile);
+	//SAFEDELETE(Tile);
 
 	if (LoadedTile == NULL)
 	{
