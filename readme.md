@@ -3,6 +3,8 @@ Cryn the Dark Reflection
 
 Cryn - The Dark Reflection: an RPG role playing game.
 
+[Download](https://github.com/pixelquestress/cryn/releases/tag/2.2) the full version game.
+
 ## Screenshots
 
 ![screenshot](screenshots/video.gif)
