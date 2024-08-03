@@ -1563,7 +1563,7 @@ void cdx_DoFrame(bool bFlip)
 		// Castle / Forest Area
 		CombatOn = true;
 
-		ForestMap->AnimateMap(30);
+		//ForestMap->AnimateMap(30);
 		ForestMap->DrawTrans(Screen->GetBack());
 
 		if (MyPlayer.GetTileX() > 37 || MyPlayer.GetTileY() > 18)
@@ -1660,7 +1660,7 @@ void cdx_DoFrame(bool bFlip)
 	{
 		// Swamp Cave Area
 		CombatOn = true;
-		SwampCaveMap->AnimateMap(30);
+		//SwampCaveMap->AnimateMap(30);
 		SwampCaveMap->DrawTrans(Screen->GetBack());
 
 		// Move characters
@@ -1758,7 +1758,7 @@ void cdx_DoFrame(bool bFlip)
 		// After Tree Boss, finish demo story.
 		CombatOn = false;
 
-		TreeTrunkMap->AnimateMap(30);
+		//TreeTrunkMap->AnimateMap(30);
 		TreeTrunkMap->DrawTrans(Screen->GetBack());
 
 		// Move characters
